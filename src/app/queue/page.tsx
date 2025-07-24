@@ -2,7 +2,7 @@
 
 import { getVideos } from "@/lib/localStorage";
 import { useEffect, useState } from "react";
-import { Video } from "@/types/video";
+// import { Video } from "@/types/video";
 
 export default function QueuePage() {
   const [videos, setVideos] = useState<Video[]>([]);
